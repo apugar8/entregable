@@ -83,13 +83,29 @@ body {
 
 .descripcion {
     position: relative;
-    top: -25px;
+    top: -50px;
     width: 600px;
     height: auto;
     background-color: rgba(27, 26, 26, 0.842);
     padding: 10px;
     border-radius: 10px;
     white-space: nowrap;
+}
+
+@media(max-width: 600px) {
+    .descripcion {
+        width: 100%; 
+        white-space: normal; 
+        top: -10px;
+    }
+
+    .descripcion h1{
+        font-size: 1.5em;
+    }
+
+    .descripcion p {
+        font-size: 1em;
+    }
 }
 
 .master2, .master1, .grado, .Leroy, .practicas, .camarero {
