@@ -1,0 +1,102 @@
+body {
+    background-color: #1a1a1a;
+    color: #f3ebeb;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cabecera {
+    position: relative;
+    width: 100%;
+    color: rgb(3, 199, 3);
+}
+
+.cabecera img {
+    width: 100%;
+    height: 200px;
+}
+
+.perfil {
+    position: absolute;
+    display: flex;
+    align-items: end;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    top: 0px;
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    border: 3px solid #1a1a1a;
+    margin-right: 30px;
+}
+
+.descripcion h1 {
+    font-size: 1.8em;
+}
+
+.descripcion p {
+    font-size: 1.2em;
+    color: #f3ebeb;
+}
+
+.redes img {
+    width: 20px;
+    height: 20px;
+}
+
+.seccion {
+    padding: 20px;
+}
+
+.seccion h2 {
+    border-bottom: 1px solid rgb(3, 199, 3) ;
+    padding-bottom: 10px;
+    color:rgb(3, 199, 3)
+}
+
+.seccion h3 {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.seccion h4 {
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+.seccion p, .seccion li {
+    font-size: 1.2;
+}
+
+.oculto {
+    display: none;
+}
+
+.seccion h2 {
+    cursor: pointer;
+}
+
+.seccion h2:hover {
+    background-color: #3f3f3f;
+}
+
+.descripcion {
+    position: relative;
+    top: -25px;
+    width: 600px;
+    height: auto;
+    background-color: rgba(27, 26, 26, 0.842);
+    padding: 10px;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+.master2, .master1, .grado, .Leroy, .practicas, .camarero {
+    padding-bottom: 10px;
+    border-style: dashed;
+    padding: 10px;
+}
+
+
+
